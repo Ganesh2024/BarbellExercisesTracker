@@ -41,3 +41,51 @@ The system is designed to assist in **fitness monitoring and performance analysi
 ---
 
 ## 📂 Project Structure  
+
+BearBallExercisePrediction/
+│── data/ # Dataset (exercise data)
+│── notebooks/ # Jupyter notebooks (EDA, training, testing)
+│── src/ # Source code for preprocessing, training, prediction
+│── models/ # Saved trained models
+│── results/ # Evaluation reports and plots
+│── requirements.txt # Python dependencies
+│── environment.yml # Conda environment setup
+│── README.md # Project documentation
+
+---
+
+## 🚀 Installation  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/BearBallExercisePrediction.git
+   cd BearBallExercisePrediction
+
+2. Create and activate environment:
+   
+   conda env create -f environment.yml
+   
+   conda activate bearball
+
+3. ▶️ Usage
+
+   1. Train the model
+  
+      python src/train.py
+
+   2. Run predictions
+
+      python src/predict.py --input data/test_sample.csv
+  
+   3. View Results
+
+      Accuracy, confusion matrix, and rep counts will be displayed.
+
+📊 Results
+
+Achieved high accuracy in predicting Bear Ball exercise types.
+
+Successfully counts repetitions with minimal error.
+
+Robust against variations in movement patterns.
+
