@@ -1,6 +1,6 @@
 # Save the polished README content into the existing README.md file
 
-new_readme_content = """# Bear Ball Exercise Prediction 🏋️‍♂️  
+# Bear Ball Exercise Prediction 🏋️‍♂️  
 
 ## 📌 Overview  
 
